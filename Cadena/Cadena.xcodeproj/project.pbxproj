@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		204578842AE43FED00146CCF /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204578832AE43FED00146CCF /* LibraryView.swift */; };
+		20998A782AADFA5B0012FA1E /* NewOnCadenaPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20998A772AADFA5B0012FA1E /* NewOnCadenaPopUp.swift */; };
+		20998A7C2AAE088D0012FA1E /* YourPlaylistPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20998A7B2AAE088D0012FA1E /* YourPlaylistPopUp.swift */; };
+		20998A7F2AAE0E900012FA1E /* NowPlayingPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20998A7E2AAE0E900012FA1E /* NowPlayingPopUp.swift */; };
+		20998A822AAE17ED0012FA1E /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20998A812AAE17ED0012FA1E /* TabBar.swift */; };
+		20998A842AAEE39F0012FA1E /* NowPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20998A832AAEE39F0012FA1E /* NowPlayingView.swift */; };
+		20B424322AF2787000C81C43 /* DeezerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B424312AF2787000C81C43 /* DeezerModel.swift */; };
+		20B424342AF27CB600C81C43 /* NewReleases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B424332AF27CB600C81C43 /* NewReleases.swift */; };
+		20D287C82AACE1EF00D64EEA /* CadenaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D287C72AACE1EF00D64EEA /* CadenaApp.swift */; };
+		20D287CA2AACE1EF00D64EEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D287C92AACE1EF00D64EEA /* ContentView.swift */; };
+		20D287CC2AACE1F200D64EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20D287CB2AACE1F200D64EEA /* Assets.xcassets */; };
+		20D287CF2AACE1F200D64EEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20D287CE2AACE1F200D64EEA /* Preview Assets.xcassets */; };
+		20D287D92AACE29A00D64EEA /* ViewTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D287D82AACE29A00D64EEA /* ViewTitle.swift */; };
+		20D287DB2AACE3DF00D64EEA /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D287DA2AACE3DF00D64EEA /* CustomButton.swift */; };
+		20D287DD2AACE56900D64EEA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D287DC2AACE56900D64EEA /* HomeView.swift */; };
+		20D287DF2AACEA3D00D64EEA /* NavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D287DE2AACEA3D00D64EEA /* NavigationButton.swift */; };
+		20D287E12AACECBF00D64EEA /* RecentlyPlayedPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D287E02AACECBF00D64EEA /* RecentlyPlayedPopUp.swift */; };
+		20D287E32AACEDC800D64EEA /* SongComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D287E22AACEDC800D64EEA /* SongComponent.swift */; };
+		20DCEBFA2B1D9ABD0078B50D /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DCEBF92B1D9ABD0078B50D /* AuthManager.swift */; };
+		20DCEBFC2B1D9AF60078B50D /* APIcaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DCEBFB2B1D9AF60078B50D /* APIcaller.swift */; };
+		20DCEBFE2B1D9B090078B50D /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DCEBFD2B1D9B090078B50D /* HapticManager.swift */; };
+		20DCEC012B1D9B730078B50D /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DCEC002B1D9B730078B50D /* Playlist.swift */; };
+		20DCEC032B1D9B830078B50D /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DCEC022B1D9B830078B50D /* AudioTrack.swift */; };
+		20DCEC052B1D9B8C0078B50D /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DCEC042B1D9B8C0078B50D /* Artist.swift */; };
+		20DCEC072B1D9B9D0078B50D /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DCEC062B1D9B9D0078B50D /* UserProfile.swift */; };
+		20F71D472AD95A9100611B32 /* LyricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F71D462AD95A9100611B32 /* LyricsView.swift */; };
+		20F71D4A2ADC303F00611B32 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F71D492ADC303F00611B32 /* SearchView.swift */; };
+		20F71D4C2ADC3F8800611B32 /* VerticalSongComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F71D4B2ADC3F8800611B32 /* VerticalSongComponent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		204578832AE43FED00146CCF /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		20998A772AADFA5B0012FA1E /* NewOnCadenaPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOnCadenaPopUp.swift; sourceTree = "<group>"; };
+		20998A7B2AAE088D0012FA1E /* YourPlaylistPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourPlaylistPopUp.swift; sourceTree = "<group>"; };
+		20998A7E2AAE0E900012FA1E /* NowPlayingPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingPopUp.swift; sourceTree = "<group>"; };
+		20998A812AAE17ED0012FA1E /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		20998A832AAEE39F0012FA1E /* NowPlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingView.swift; sourceTree = "<group>"; };
+		20B424312AF2787000C81C43 /* DeezerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeezerModel.swift; sourceTree = "<group>"; };
+		20B424332AF27CB600C81C43 /* NewReleases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleases.swift; sourceTree = "<group>"; };
+		20D287C42AACE1EF00D64EEA /* Cadena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cadena.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D287C72AACE1EF00D64EEA /* CadenaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadenaApp.swift; sourceTree = "<group>"; };
+		20D287C92AACE1EF00D64EEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		20D287CB2AACE1F200D64EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20D287CE2AACE1F200D64EEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20D287D82AACE29A00D64EEA /* ViewTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTitle.swift; sourceTree = "<group>"; };
+		20D287DA2AACE3DF00D64EEA /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		20D287DC2AACE56900D64EEA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		20D287DE2AACEA3D00D64EEA /* NavigationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButton.swift; sourceTree = "<group>"; };
+		20D287E02AACECBF00D64EEA /* RecentlyPlayedPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyPlayedPopUp.swift; sourceTree = "<group>"; };
+		20D287E22AACEDC800D64EEA /* SongComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongComponent.swift; sourceTree = "<group>"; };
+		20DCEBF92B1D9ABD0078B50D /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		20DCEBFB2B1D9AF60078B50D /* APIcaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIcaller.swift; sourceTree = "<group>"; };
+		20DCEBFD2B1D9B090078B50D /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		20DCEC002B1D9B730078B50D /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		20DCEC022B1D9B830078B50D /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
+		20DCEC042B1D9B8C0078B50D /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		20DCEC062B1D9B9D0078B50D /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		20F71D462AD95A9100611B32 /* LyricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsView.swift; sourceTree = "<group>"; };
+		20F71D492ADC303F00611B32 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		20F71D4B2ADC3F8800611B32 /* VerticalSongComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSongComponent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20D287C12AACE1EF00D64EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		204578822AE43FCD00146CCF /* LibraryViews */ = {
+			isa = PBXGroup;
+			children = (
+				204578832AE43FED00146CCF /* LibraryView.swift */,
+			);
+			path = LibraryViews;
+			sourceTree = "<group>";
+		};
+		20998A762AADF9D90012FA1E /* CadenaViews */ = {
+			isa = PBXGroup;
+			children = (
+				20998A772AADFA5B0012FA1E /* NewOnCadenaPopUp.swift */,
+			);
+			path = CadenaViews;
+			sourceTree = "<group>";
+		};
+		20998A792AAE07D00012FA1E /* PlayListViews */ = {
+			isa = PBXGroup;
+			children = (
+				20998A7B2AAE088D0012FA1E /* YourPlaylistPopUp.swift */,
+			);
+			path = PlayListViews;
+			sourceTree = "<group>";
+		};
+		20998A7A2AAE07DF0012FA1E /* RecentlyPlayedViews */ = {
+			isa = PBXGroup;
+			children = (
+				20D287E02AACECBF00D64EEA /* RecentlyPlayedPopUp.swift */,
+			);
+			path = RecentlyPlayedViews;
+			sourceTree = "<group>";
+		};
+		20998A7D2AAE0E750012FA1E /* NowPlayingViews */ = {
+			isa = PBXGroup;
+			children = (
+				20998A832AAEE39F0012FA1E /* NowPlayingView.swift */,
+				20998A7E2AAE0E900012FA1E /* NowPlayingPopUp.swift */,
+				20F71D462AD95A9100611B32 /* LyricsView.swift */,
+			);
+			path = NowPlayingViews;
+			sourceTree = "<group>";
+		};
+		20998A802AAE17CE0012FA1E /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				20D287DC2AACE56900D64EEA /* HomeView.swift */,
+				20D287C92AACE1EF00D64EEA /* ContentView.swift */,
+				20998A812AAE17ED0012FA1E /* TabBar.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		20B424302AF2786200C81C43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20B424312AF2787000C81C43 /* DeezerModel.swift */,
+				20B424332AF27CB600C81C43 /* NewReleases.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		20D287BB2AACE1EF00D64EEA = {
+			isa = PBXGroup;
+			children = (
+				20D287C62AACE1EF00D64EEA /* Cadena */,
+				20D287C52AACE1EF00D64EEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20D287C52AACE1EF00D64EEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20D287C42AACE1EF00D64EEA /* Cadena.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20D287C62AACE1EF00D64EEA /* Cadena */ = {
+			isa = PBXGroup;
+			children = (
+				20DCEBFF2B1D9B480078B50D /* Models */,
+				20DCEBF82B1D9A920078B50D /* Managers */,
+				20B424302AF2786200C81C43 /* Model */,
+				20D287D72AACE23500D64EEA /* Root */,
+				20D287D62AACE22900D64EEA /* Components */,
+				20D287D52AACE22000D64EEA /* Views */,
+				20D287C72AACE1EF00D64EEA /* CadenaApp.swift */,
+				20D287CB2AACE1F200D64EEA /* Assets.xcassets */,
+				20D287CD2AACE1F200D64EEA /* Preview Content */,
+			);
+			path = Cadena;
+			sourceTree = "<group>";
+		};
+		20D287CD2AACE1F200D64EEA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				20D287CE2AACE1F200D64EEA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20D287D52AACE22000D64EEA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				204578822AE43FCD00146CCF /* LibraryViews */,
+				20F71D482ADC300800611B32 /* SearchViews */,
+				20998A802AAE17CE0012FA1E /* Root */,
+				20998A7D2AAE0E750012FA1E /* NowPlayingViews */,
+				20998A7A2AAE07DF0012FA1E /* RecentlyPlayedViews */,
+				20998A792AAE07D00012FA1E /* PlayListViews */,
+				20998A762AADF9D90012FA1E /* CadenaViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		20D287D62AACE22900D64EEA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				20D287D82AACE29A00D64EEA /* ViewTitle.swift */,
+				20D287DA2AACE3DF00D64EEA /* CustomButton.swift */,
+				20D287DE2AACEA3D00D64EEA /* NavigationButton.swift */,
+				20D287E22AACEDC800D64EEA /* SongComponent.swift */,
+				20F71D4B2ADC3F8800611B32 /* VerticalSongComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		20D287D72AACE23500D64EEA /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		20DCEBF82B1D9A920078B50D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				20DCEBF92B1D9ABD0078B50D /* AuthManager.swift */,
+				20DCEBFB2B1D9AF60078B50D /* APIcaller.swift */,
+				20DCEBFD2B1D9B090078B50D /* HapticManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		20DCEBFF2B1D9B480078B50D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20DCEC002B1D9B730078B50D /* Playlist.swift */,
+				20DCEC022B1D9B830078B50D /* AudioTrack.swift */,
+				20DCEC042B1D9B8C0078B50D /* Artist.swift */,
+				20DCEC062B1D9B9D0078B50D /* UserProfile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		20F71D482ADC300800611B32 /* SearchViews */ = {
+			isa = PBXGroup;
+			children = (
+				20F71D492ADC303F00611B32 /* SearchView.swift */,
+			);
+			path = SearchViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20D287C32AACE1EF00D64EEA /* Cadena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20D287D22AACE1F200D64EEA /* Build configuration list for PBXNativeTarget "Cadena" */;
+			buildPhases = (
+				20D287C02AACE1EF00D64EEA /* Sources */,
+				20D287C12AACE1EF00D64EEA /* Frameworks */,
+				20D287C22AACE1EF00D64EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cadena;
+			productName = Cadena;
+			productReference = 20D287C42AACE1EF00D64EEA /* Cadena.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20D287BC2AACE1EF00D64EEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					20D287C32AACE1EF00D64EEA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 20D287BF2AACE1EF00D64EEA /* Build configuration list for PBXProject "Cadena" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20D287BB2AACE1EF00D64EEA;
+			productRefGroup = 20D287C52AACE1EF00D64EEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20D287C32AACE1EF00D64EEA /* Cadena */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20D287C22AACE1EF00D64EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D287CF2AACE1F200D64EEA /* Preview Assets.xcassets in Resources */,
+				20D287CC2AACE1F200D64EEA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20D287C02AACE1EF00D64EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20998A842AAEE39F0012FA1E /* NowPlayingView.swift in Sources */,
+				20998A7F2AAE0E900012FA1E /* NowPlayingPopUp.swift in Sources */,
+				20DCEC032B1D9B830078B50D /* AudioTrack.swift in Sources */,
+				20D287E12AACECBF00D64EEA /* RecentlyPlayedPopUp.swift in Sources */,
+				20D287DB2AACE3DF00D64EEA /* CustomButton.swift in Sources */,
+				20998A822AAE17ED0012FA1E /* TabBar.swift in Sources */,
+				20D287D92AACE29A00D64EEA /* ViewTitle.swift in Sources */,
+				20D287CA2AACE1EF00D64EEA /* ContentView.swift in Sources */,
+				20998A782AADFA5B0012FA1E /* NewOnCadenaPopUp.swift in Sources */,
+				20DCEBFE2B1D9B090078B50D /* HapticManager.swift in Sources */,
+				20998A7C2AAE088D0012FA1E /* YourPlaylistPopUp.swift in Sources */,
+				20DCEC012B1D9B730078B50D /* Playlist.swift in Sources */,
+				20DCEC072B1D9B9D0078B50D /* UserProfile.swift in Sources */,
+				20DCEBFA2B1D9ABD0078B50D /* AuthManager.swift in Sources */,
+				20DCEBFC2B1D9AF60078B50D /* APIcaller.swift in Sources */,
+				20B424322AF2787000C81C43 /* DeezerModel.swift in Sources */,
+				204578842AE43FED00146CCF /* LibraryView.swift in Sources */,
+				20D287DD2AACE56900D64EEA /* HomeView.swift in Sources */,
+				20F71D4C2ADC3F8800611B32 /* VerticalSongComponent.swift in Sources */,
+				20F71D4A2ADC303F00611B32 /* SearchView.swift in Sources */,
+				20D287C82AACE1EF00D64EEA /* CadenaApp.swift in Sources */,
+				20B424342AF27CB600C81C43 /* NewReleases.swift in Sources */,
+				20D287DF2AACEA3D00D64EEA /* NavigationButton.swift in Sources */,
+				20F71D472AD95A9100611B32 /* LyricsView.swift in Sources */,
+				20DCEC052B1D9B8C0078B50D /* Artist.swift in Sources */,
+				20D287E32AACEDC800D64EEA /* SongComponent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		20D287D02AACE1F200D64EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20D287D12AACE1F200D64EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20D287D32AACE1F200D64EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cadena/Preview Content\"";
+				DEVELOPMENT_TEAM = TJJ6CUBYN8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ReetseEffect.Cadena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20D287D42AACE1F200D64EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cadena/Preview Content\"";
+				DEVELOPMENT_TEAM = TJJ6CUBYN8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ReetseEffect.Cadena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20D287BF2AACE1EF00D64EEA /* Build configuration list for PBXProject "Cadena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D287D02AACE1F200D64EEA /* Debug */,
+				20D287D12AACE1F200D64EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20D287D22AACE1F200D64EEA /* Build configuration list for PBXNativeTarget "Cadena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D287D32AACE1F200D64EEA /* Debug */,
+				20D287D42AACE1F200D64EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20D287BC2AACE1EF00D64EEA /* Project object */;
+}
